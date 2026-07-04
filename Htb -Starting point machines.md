@@ -100,6 +100,7 @@ I just completed it yesterday in morning 2a.m. something. Well its as usual to s
 - Then I can use the hased password to enter the host. I use *evil-winrm* cause it will turn my shell into more interactive one `evil-winrm -i 10.129.136.91 -u username -p password`(similer to mysql).
 - Then I can get the flag by searching for a bit usng the powershell.
 
+## Three 3️⃣
 
 
 
