@@ -91,6 +91,15 @@ I just completed it yesterday in morning 2a.m. something. Well its as usual to s
 - After this I paste the ip in the browser but it returns nothing which quite weird to me. Also the reason I took so long to complete it was because of this. I didnt know what to do cause the site didnt even open.
 - After all the time I read it in a writeup that I have to use `echo "10.129.128.223 unika.htb" | sudo tee -a /etc/hosts` command cause the site was sharing its resources to another site which we need to go into. To get inside that site we use the command to tell our system that this is the website we want to visit so please take me there and then it openes.
 - After this I basically used the writeups as a theory cause it everything that came was new
+- There is a vulnerability in their code, it is them having no sanitiztion on their include(). We can use LFI here to attack it.
+- Since, we know that the server is a windows which uses NTLM protocol. I can send a challenge to the server.
+- The server solves it and gives it back with NTHash which is the password stored in the SAM base.
+- These details transfer to use using NetNTLMv2 network line, which can be intersepted to steal the NTHash.
+- Now I make a malicious SMB(server messege block) server `sudo python3 Responder.py -I tun0`
+- Then I can just use any file from my system to send a challenge(file) and the server will send a message back and my system will listen to it giving me the credentials.
+- Then I can use the hased password to enter the host. I use *evil-winrm* cause it will turn my shell into more interactive one `evil-winrm -i 10.129.136.91 -u username -p password`(similer to mysql).
+- Then I can get the flag by searching for a bit usng the powershell.
+
 
 
 
