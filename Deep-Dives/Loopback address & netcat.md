@@ -16,4 +16,5 @@
 ## Command info
 - One command is to run `netstat -tulnp4` which returns us this:
 <img width="1018" height="113" alt="Screenshot from 2026-07-17 02-29-59" src="https://github.com/user-attachments/assets/18187104-0567-4f79-9c18-50491534debd" />
+
 - Removing the 'n' in -tulpn4 will replace IP:PORT from hostname:service.
