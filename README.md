@@ -21,6 +21,7 @@ I am a trainee in cybersecurity. I am growing and I will try and post every work
 - Introduction to Information Security [https://academy.hackthebox.com/achievement/badge/a2ee13d9-6cde-11f1-82d1-bea50ffe6cb4]
 - SQL Injection Fundamentals [https://academy.hackthebox.com/achievement/2542956/33]
 - File Inclusion [https://academy.hackthebox.com/achievement/2542956/23]
+- Network Foundations [https://academy.hackthebox.com/achievement/2542956/289]
 
 ### 🛠️ Tools & Technologies I am Learning
 - **Languages:** Python, HTML, JavaScript
