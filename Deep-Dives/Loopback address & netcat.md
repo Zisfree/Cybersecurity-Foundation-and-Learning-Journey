@@ -1,5 +1,5 @@
 ## What is the loopback address?
-- Loopback address aka 127.0.0.1 is an IP when devices need to send data to themselves.
+- Loopback address aka 127.0.0.1 is an IP when devices need to send data to themselves. It is written as lo: in ifconfig.
 
 ## What is its use?
 - Loopback addresses are used to check weather the applications is working or not before going to the internet.
