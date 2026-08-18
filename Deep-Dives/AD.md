@@ -6,4 +6,4 @@
 - Users can be different too. One is an employee and other are services like, Mysql. As services need a user to run, they are give privileges inside a local system to run that service only.
 - The machines are also given an account as under security principle. They have a machine account which has a password which keeps changing automatically and is usually comprised of 120 characters.
 - Machine accounts are easy to find. For example if a machine is named DS10, its machine account will be named DS10$.
-- 
+- Then are groups. We can add people to groups and they get the same privileges as other users. This is also under security principle, which makes there privileges available inside the corporate network. Both machines and users can be in a group.
