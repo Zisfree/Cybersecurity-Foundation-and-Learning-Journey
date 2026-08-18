@@ -24,7 +24,7 @@ I am a trainee in cybersecurity. I am growing and I will try and post every work
 - Network Foundations [https://academy.hackthebox.com/achievement/2542956/289]
 
 ### 🛠️ Tools & Technologies I am Learning
-- **Languages:** Python, HTML, JavaScript
+- **Languages:** Python, C
 - **Operating Systems:** Linux (Ubuntu/Kali), Windows
 - **Security Tools:** Nmap, Burp Suite(Little bit), Base64, ffuf, Mysql, php(little bit writing), get, nano
 
