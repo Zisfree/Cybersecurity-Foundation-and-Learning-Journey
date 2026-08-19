@@ -12,3 +12,5 @@
 - if/elif
 - for
 - while
+- Functions
+- Random
