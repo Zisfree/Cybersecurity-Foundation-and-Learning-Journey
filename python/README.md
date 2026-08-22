@@ -14,3 +14,5 @@
 - while
 - Functions
 - Random
+- except/try
+- with
